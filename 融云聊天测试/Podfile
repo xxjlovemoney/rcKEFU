@@ -1,0 +1,7 @@
+
+# platform :ios, ‘8.0’
+
+target '融云聊天测试' do
+pod 'RongCloudIM/IMKit' 
+
+end

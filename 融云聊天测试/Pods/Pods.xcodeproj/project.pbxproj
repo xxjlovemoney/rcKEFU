@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33AAA249BBC395A4E5F603885DD61EBB /* Pods-融云聊天测试-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AD4465E6B84D1EA3C4B9A3202404DCD /* Pods-融云聊天测试-dummy.m */; };
+		BD82A631C7D4CDD71E4D6EAB21DE35B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04DE5279E80CC6B4B9DA47B6D06C9C2D /* RongCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = RongCloudIM/RongCloud.bundle; sourceTree = "<group>"; };
+		0AD4465E6B84D1EA3C4B9A3202404DCD /* Pods-融云聊天测试-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-融云聊天测试-dummy.m"; sourceTree = "<group>"; };
+		0C200BBA4315024EAE10664FED0AC4CD /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "RongCloudIM/zh-Hans.lproj"; sourceTree = "<group>"; };
+		190E3CC2D0CE5BC733B7C8F115A54082 /* Pods-融云聊天测试-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-融云聊天测试-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A6ABC069D87EF53BDDA2AB9422E4E36 /* RCConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = RongCloudIM/RCConfig.plist; sourceTree = "<group>"; };
+		2CAD0AE3F9E531E76805EBB1ADF68FBB /* Pods-融云聊天测试-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-融云聊天测试-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C2DE4021CFC37A1BC93423A73202832 /* Pods-融云聊天测试.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-融云聊天测试.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D92FD180C9C6B4BB249603F7FEAAE0D /* Pods-融云聊天测试.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-融云聊天测试.debug.xcconfig"; sourceTree = "<group>"; };
+		78923C300CEF15B50627551AEB57D541 /* Emoji.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = RongCloudIM/Emoji.plist; sourceTree = "<group>"; };
+		7BD785FA2B087E1CF96A7ACA9C448633 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = RongCloudIM/RongIMLib.framework; sourceTree = "<group>"; };
+		84745CBFA0B6C5E4AA5613714EA2390E /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = RongCloudIM/RongIMKit.framework; sourceTree = "<group>"; };
+		8FB01A8BCBFC1A2BB34792F8E686B981 /* libPods-融云聊天测试.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-融云聊天测试.a"; path = "libPods-融云聊天测试.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE63ECEE115CB712D57C23D210831250 /* Pods-融云聊天测试-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-融云聊天测试-resources.sh"; sourceTree = "<group>"; };
+		B764C8AF5172B06920C32418A5339DF9 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "RongCloudIM/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		C1A03387C932CFB5333094D14E80481F /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = RongCloudIM/en.lproj; sourceTree = "<group>"; };
+		F82B0096757F3E5F6BC638B85E86E1D4 /* Pods-融云聊天测试-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-融云聊天测试-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E807C18B4285819E17082896F051F814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD82A631C7D4CDD71E4D6EAB21DE35B7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		257B3FDED07C9AA666F1125EEF779AD3 /* IMLib */ = {
+			isa = PBXGroup;
+			children = (
+				BCDA7C910775D8B4D7A6062CB61CCC7E /* Frameworks */,
+				E12C0995F9FA2CD9641C94B9F51CCD8E /* Resources */,
+			);
+			name = IMLib;
+			sourceTree = "<group>";
+		};
+		354D111C6A1B112CF8A3D8CA011D7B4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				535C5B8234E1D99C6C89DE604C480612 /* RongCloudIM */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		535C5B8234E1D99C6C89DE604C480612 /* RongCloudIM */ = {
+			isa = PBXGroup;
+			children = (
+				CCCCF295EB21315F1FCD89B7B0273ABF /* IMKit */,
+				257B3FDED07C9AA666F1125EEF779AD3 /* IMLib */,
+			);
+			name = RongCloudIM;
+			path = RongCloudIM;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				354D111C6A1B112CF8A3D8CA011D7B4C /* Pods */,
+				B5CD49E2305B9328B0C6D2AB48B811EF /* Products */,
+				8411B3A59833020E098CF2B6CC161882 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8411B3A59833020E098CF2B6CC161882 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				941E426C486D5D435DC7B99C01BA6DC8 /* Pods-融云聊天测试 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		941E426C486D5D435DC7B99C01BA6DC8 /* Pods-融云聊天测试 */ = {
+			isa = PBXGroup;
+			children = (
+				2CAD0AE3F9E531E76805EBB1ADF68FBB /* Pods-融云聊天测试-acknowledgements.markdown */,
+				190E3CC2D0CE5BC733B7C8F115A54082 /* Pods-融云聊天测试-acknowledgements.plist */,
+				0AD4465E6B84D1EA3C4B9A3202404DCD /* Pods-融云聊天测试-dummy.m */,
+				F82B0096757F3E5F6BC638B85E86E1D4 /* Pods-融云聊天测试-frameworks.sh */,
+				AE63ECEE115CB712D57C23D210831250 /* Pods-融云聊天测试-resources.sh */,
+				6D92FD180C9C6B4BB249603F7FEAAE0D /* Pods-融云聊天测试.debug.xcconfig */,
+				3C2DE4021CFC37A1BC93423A73202832 /* Pods-融云聊天测试.release.xcconfig */,
+			);
+			name = "Pods-融云聊天测试";
+			path = "Target Support Files/Pods-融云聊天测试";
+			sourceTree = "<group>";
+		};
+		B5CD49E2305B9328B0C6D2AB48B811EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FB01A8BCBFC1A2BB34792F8E686B981 /* libPods-融云聊天测试.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCDA7C910775D8B4D7A6062CB61CCC7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B764C8AF5172B06920C32418A5339DF9 /* libopencore-amrnb.a */,
+				7BD785FA2B087E1CF96A7ACA9C448633 /* RongIMLib.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCCCF295EB21315F1FCD89B7B0273ABF /* IMKit */ = {
+			isa = PBXGroup;
+			children = (
+				EF03E870E89876D9845AF65F4E2999E0 /* Frameworks */,
+				D642726CAECB611288E16BA34F62539E /* Resources */,
+			);
+			name = IMKit;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D642726CAECB611288E16BA34F62539E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				78923C300CEF15B50627551AEB57D541 /* Emoji.plist */,
+				C1A03387C932CFB5333094D14E80481F /* en.lproj */,
+				04DE5279E80CC6B4B9DA47B6D06C9C2D /* RongCloud.bundle */,
+				0C200BBA4315024EAE10664FED0AC4CD /* zh-Hans.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E12C0995F9FA2CD9641C94B9F51CCD8E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1A6ABC069D87EF53BDDA2AB9422E4E36 /* RCConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EF03E870E89876D9845AF65F4E2999E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84745CBFA0B6C5E4AA5613714EA2390E /* RongIMKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2D787A4A5F43B3FB03AB24F1C235FE2 /* Pods-融云聊天测试 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F35572A47A4EE079F4A0F8D1982A560 /* Build configuration list for PBXNativeTarget "Pods-融云聊天测试" */;
+			buildPhases = (
+				81E926C0DFF801E5A211E44A09DD645A /* Sources */,
+				E807C18B4285819E17082896F051F814 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-融云聊天测试";
+			productName = "Pods-融云聊天测试";
+			productReference = 8FB01A8BCBFC1A2BB34792F8E686B981 /* libPods-融云聊天测试.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B5CD49E2305B9328B0C6D2AB48B811EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2D787A4A5F43B3FB03AB24F1C235FE2 /* Pods-融云聊天测试 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81E926C0DFF801E5A211E44A09DD645A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33AAA249BBC395A4E5F603885DD61EBB /* Pods-融云聊天测试-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		163D87BE96A63549B0EACF1CC31A2E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC7A038BD93359B4B9F6A8E28DD4C0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D92FD180C9C6B4BB249603F7FEAAE0D /* Pods-融云聊天测试.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DCB4F0A9AA1CFBDF9851771CEC0E13F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C2DE4021CFC37A1BC93423A73202832 /* Pods-融云聊天测试.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				163D87BE96A63549B0EACF1CC31A2E90 /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F35572A47A4EE079F4A0F8D1982A560 /* Build configuration list for PBXNativeTarget "Pods-融云聊天测试" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC7A038BD93359B4B9F6A8E28DD4C0F4 /* Debug */,
+				DCB4F0A9AA1CFBDF9851771CEC0E13F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
